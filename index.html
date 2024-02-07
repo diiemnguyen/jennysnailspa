@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Jenny Nails Spa</title>
+	<meta name="keywords" content="salon, beauty salon, delaware beauty salon, nail salon delaware, nail spa delaware, waxing, nails, best nail salon delaware">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>  
+	<link rel="stylesheet" href="css/app.css"/>
+	<link rel="stylesheet" href="css/responsive.css"/>
+	<link rel="stylesheet" href="css/colors.css"/>
+
+	<script type="text/javascript" src="js/jquery.min.1.6.1.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	
+	<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+	<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+
+	<script type="text/javascript">
+	$(function(){
+      $("#includedContent").load("./header.html"); 
+    });
+		
+	jQuery(function($){
+		
+		$.supersized({
+		
+			// Functionality
+			slide_interval          :   3000,		// Length between transitions
+			transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+			transition_speed		:	700,		// Speed of transition
+													   
+			// Components							
+			slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+			slides 					:  	[			// Slideshow Images
+				{image : 'img/home_1.jpg', title : 'Jenny&#39;s nail spa', thumb : 'img/home_1_thumb.jpg', url : 'index.html'},
+				{image : 'img/home_0.jpg', title : 'Nails Service', thumb : 'img/home_0_thumb.jpg', url : 'http://diemweb.com/jennysnailspa/nails.html'},  
+				{image : 'img/home_4.jpg', title : 'Spa Service', thumb : 'img/home_4_thumb.jpg', url : 'http://diemweb.com/jennysnailspa/spa.html'},
+				{image : 'img/home_5.jpg', title : 'Waxing Service', thumb : 'img/home_5_thumb.jpg', url : 'http://diemweb.com/jennysnailspa/wax.html'},
+				{image : 'img/home_7.jpg', title : 'Contact Us', thumb : 'img/home_7_thumb.jpg', url : 'http://diemweb.com/jennysnailspa/contact.html'}
+			]
+			
+		});
+	});
+	    
+	</script>	
+</head>
+
+<body>
+<div id="page">
+	<div id="includedContent"></div>
+
+	<!--Thumbnail Navigation-->
+	<div id="prevthumb"></div>
+	<div id="nextthumb"></div>
+	
+	<!--Arrow Navigation-->
+	<nav class="slides-navigation">
+		<a id="prevslide" class="load-item"><i class="icon-chevron-left"></i></a>
+		<a id="nextslide" class="load-item"><i class="icon-chevron-right"></i></a>
+	</nav>
+
+	<div id="thumb-tray" class="load-item">
+		<div id="thumb-back"></div>
+		<div id="thumb-forward"></div>
+	</div>
+	
+	<!--Time Bar-->
+	<div id="progress-back" class="load-item">
+		<div id="progress-bar"></div>
+	</div>
+	
+	<!--Control Bar-->
+	<div id="controls-wrapper" class="load-item">
+		<div id="controls">
+			
+			<a id="play-button"><img id="pauseplay" src="img/pause.png"/></a>
+		
+			<!--Slide counter-->
+			<div id="slidecounter">
+				<span class="slidenumber"></span> / <span class="totalslides"></span>
+			</div>
+			
+			<!--Slide captions displayed here-->
+			<div id="slidecaption"></div>
+			
+			<!--Thumb Tray button-->
+			<a id="tray-button"><img id="tray-arrow" src="img/button-tray-up.png"/></a>
+			
+			<!--Navigation-->
+			<ul id="slide-list"></ul>
+			
+		</div>
+	</div>
+	
+</div><!-- #page -->
+</body>
+</html>
