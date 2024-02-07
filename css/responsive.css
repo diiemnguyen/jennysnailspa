@@ -1,0 +1,61 @@
+/* -----------------------------------------
+   Theme Specific Media Queries
+----------------------------------------- */
+
+
+/* Small desktop to mobile ----- */
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+
+}
+
+@media only screen and ( max-width: 945px ) and ( min-width: 768px ) {
+	a.btn.read-more { font-size: 10px; }
+}
+
+/* Main MQuery, iPad portrait and lower -- */
+@media only screen and (max-width: 768px) and ( min-width: 480) {
+	#title h1 { font-size: 45px; }
+	#logo { float: left; margin-bottom: 30px; }
+	#navigation > li { display: block; float: none; margin: 0; padding: 0; }
+	#navigation > li > a { margin: 0;}
+	#navigation li.appointment { margin: 0; padding: 0; border: none; }
+	.appointment:after { display: none; }
+	#navigation ul { width: 100%; }
+	#nav { position: static; text-align: center; margin-top: -80px;}
+	.menu { top: 10px; }
+	#footer { text-align: center; }
+	.copy { margin-bottom: 20px; }
+	.subnav { text-align: center; position: static;}
+	.subnav li { float: none; display: inline-block; }
+	.entry-thumb { margin-bottom: 30px; }
+	#sidebar { margin-top: 50px; }
+	.featurette {	position: relative;	margin-top: 340px; }
+	.featurette .item {	margin-bottom: 30px; }
+	.slides-navigation { display: none; }
+	.slide-content { margin-top: 250px; }
+	#slides { height: 500px !important; border-bottom: 1px solid rgba(255,255,255,0.3); }
+
+}
+
+/* Only mobile ----- */
+@media only screen and (max-width: 480px) {
+	#title h1 { font-size: 34px; }
+	
+	#header .wrap { margin-bottom: 10px; }
+	#logo { 
+		float: left; margin: -15px 0px -90px -50px; 
+		transform: scale(0.7, 0.7);
+		-ms-transform: scale(0.7, 0.7);
+		-webkit-transform: scale(0.7, 0.7); 
+	}
+	.appointment { display: none; }
+	
+	#navigation ul { width: 100%; }
+	#nav { font-size: 14px; float: right; margin-right: -25px; }
+	
+	#navigation > li ul a, #navigation > li ul a:visited { 
+		text-align: left; margin-left: -25px; padding: 2px 5px; width: 70px;
+	}
+	
+	#supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin: 50% 0 0 0px; text-indent:-999em; background:url(../img/progress.gif) no-repeat center center;}
+}
