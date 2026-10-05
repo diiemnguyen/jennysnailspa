@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Jenny | Nails</title>
+	<meta name="keywords" content="salon, beauty salon, delaware beauty salon, nail salon delaware, nail spa delaware, waxing, nails, best nail salon delaware">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://jennysnailspa.diemweb.com/css/supersized.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="https://jennysnailspa.diemweb.com/theme/supersized.shutter.css" type="text/css" media="screen" />
+
+	<link rel="stylesheet" href="https://jennysnailspa.diemweb.com/css/normalize.css"/>
+	<link rel="stylesheet" href="https://jennysnailspa.diemweb.com/css/font-awesome.min.css"/>  
+	<link rel="stylesheet" href="https://jennysnailspa.diemweb.com/css/app.css"/>
+	<link rel="stylesheet" href="https://jennysnailspa.diemweb.com/css/responsive.css"/>
+	<link rel="stylesheet" href="https://jennysnailspa.diemweb.com/css/colors.css"/>
+
+	<script type="text/javascript" src="https://jennysnailspa.diemweb.com/js/jquery.min.1.6.1.js"></script>
+	<script type="text/javascript" src="https://jennysnailspa.diemweb.com/js/jquery.easing.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+	    $("#includedHeader").load("https://jennysnailspa.diemweb.com/header.html");
+	    $("#includedFooter").load("https://jennysnailspa.diemweb.com/footer.html");
+	});
+	</script>
+</head>
+
+<body style="background: url(https://jennysnailspa.diemweb.com/img/bg2.jpg) 50% 0% repeat fixed;">
+<div id="page">
+	<div id="includedHeader"></div>
+		
+	<div id="title" class="row">
+		<div class="twelve columns">
+			<h1>Pedicures & Manicures</h1>
+		</div>
+	</div>
+
+	<main id="main" class="row">
+		<div class="twelve columns">
+			<article class="four columns service">
+			    <div class="wrap">
+				    <div class="row">
+					    <div class="twelve columns entry-content">
+						    <div class="entry-excerpt">
+		                	    <h3>Manicure & Pedicure Combo ($60) | With Gel ($78)</h3>
+                          <h3>Manicure ($25) | With Gel ($35)</h3>
+                          <h3>Manicure with SNS Dipping ($50)</h3>
+                          <h3>SNS Dipping Color Change ($45)</h3>
+                          <h3>Pedicure ($40) | With Gel ($50)</h3>
+                          <h3>Herbal Pedicure ($55) | With Gel ($65)</h3>
+                          <h3>Pedicure with Goat Milk or Matcha ($45)</h3>
+		                    </div>
+		                </div>
+		             </div>
+			    </div>
+			</article>
+		    
+		    <article class="four columns service">
+			    <div class="wrap">
+				    <div class="row">
+					    <div class="twelve columns entry-content">
+						    <div class="entry-excerpt">
+                          <h2>Pedicure Add-ons</h2>
+		                	    <h3>Goat Milk Powder / Lavender / Peppermint / Ginger ($5)</h3>
+                          <h3>Extra Callus Treatment ($5)</h3>
+                          <h3>Acrylic on Big Toe ($10 each)</h3>
+                          <h3>Acrylic Refill on Big Toe ($7)</h3>
+                          <h3>Acrylic on 2 Big Toes ($15)</h3>
+                          <h3>Acrylic Refill on 2 Big Toes ($12)</h3>
+                          <h3>Acrylic on 10 Toenails ($40)</h3>
+                          <h3>Acrylic Refill on 10 Toenails ($30)</h3>
+		                    </div>
+		                </div>
+		             </div>
+			    </div>
+			</article>
+
+			<article class="four columns service">
+			    <div class="wrap">
+				    <div class="row">
+					    <div class="twelve columns entry-content">
+						    <div class="entry-excerpt">
+								          <span style="background: url(https://jennysnailspa.diemweb.com/img/female-feet-spa-salon-closeup-scaled.jpg) 50% 0% repeat fixed;"></span>
+		                    </div>
+		                </div>
+		             </div>
+			    </div>
+			</article>
+			
+		    
+		</div>
+	</main>
+
+	<div id="includedFooter"></div>
+
+</div> <!-- #page -->
+
+</body>
+</html>
