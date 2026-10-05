@@ -60,11 +60,18 @@ body {
 	background-size: cover;
 }
 
+
+.column{
+	padding: 0 10px;
+	
+}
+
 .wrap {
 	background: rgba(50,25,50,0.5);
-	padding: 30px;
+	padding: 27px;
 	position: relative;
 }
+
 
 .price {
 	background-color:rgb(80,25,50);
@@ -1325,6 +1332,8 @@ button.btn:active {
 	background: #000;
 	background: rgba(0, 0, 0, .8);
 }
+
+
 
 /*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
